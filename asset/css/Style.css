@@ -348,36 +348,80 @@ transition: ease .4s ;
     padding: 20px;
 }
 
-
-
-
-
-  
-
-  
-@media (max-width:1023px){
-    section{
-        padding: 80px 20px;
+@media (max-width: 400px) {
+    .header {
+        flex-direction: column;
+        padding: 10px 20px;
     }
- 
+
+    .header h1 {
+        font-size: 25px;
+        margin-bottom: 10px;
     }
-    @media (max-width:541px){
-       body{
-        font-size: 12px;
-       }
-       .main-content h1{
-        font-size: 0.8em;
-        }
-        .main-content h3{
-            font-size: 1.4em
+
+    .navbar a {
+        font-size: 18px;
+        margin: 5px;
+    }
+
+    .carsour {
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .carsour div h2 {
+        font-size: 30px;
+    }
+
+    .carsour div p {
+        font-size: 18px;
+    }
+
+    .icons a {
+        font-size: 20px;
+    }
+
+    .Services .container {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .Services .cards {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .notilla, .notilla-img-rtl {
+        flex-direction: column;
+    }
+
+    .notilla-img img, .notilla-img-rtl img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .contact .input input {
+        font-size: 16px;
+    }
+
+    .map div {
+        width: 100%;
+    }
     
-        }
+}
+@media (max-width: 500px) {
+    .notilla, .notilla-img-rtl {
+        flex-direction: column;
+        text-align: center;
     }
-    @media (max-width:200px){
-        body{
-         font-size: 10px;
-        
-        }
+}
+
+
+
+  
+
+  
+
         }
       
       
