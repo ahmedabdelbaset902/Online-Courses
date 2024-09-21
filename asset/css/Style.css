@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+.header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(31, 32, 42);
+    padding: 20px 50px;
+    border-top: 2px solid rgb(106, 20, 20);
+    position: fixed;
+    width: 100%;
+
+
+}
+.header h1{
+    color: rgb(241, 3, 3);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-size: 30px;
+    
+}
+
+.navbar a{
+    margin: 13px;
+    color: rgb(255, 255, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: ease .4s;
+    
+} 
+
+.navbar a:hover{
+    color: rgb(191, 26, 26);
+    font-size:27px ;
+
+}
+.carsour{
+background: url(../imges/project-2.jpg)  no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-blend-mode: overlay;
+background-color: rgba(0,0,0,.5);
+background-position: center;
+    width: 100%;
+    height: 100vh;
+display: flex;
+    align-items: center;
+    padding: 0px 100px;
+    color: rgb(219, 218, 218);
+}
+
+
+.carsour div h2{
+ font-size: 40px;
+ color: #cbb9b9;
+ font-weight: 1000;
+}
+.carsour div p{
+    font-size: 20px;
+   
+    font-weight:200;
+   }
+   
+
+#color{
+     color: rgb(241, 3, 3) ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:35px;
+    margin:  0px 10px;
+    font-weight: 1000;
+}
+
+.carsour span{
+    color: rgb(255, 153, 0);
+}
+
+
+.carsour  a{
+   border: 2px ;
+   border-radius: 10px;
+   width: 135px;
+   background-color: rgb(241, 3, 3) ;
+   padding:10px;
+   text-decoration: none;
+   font-size: 20px;
+   transition: ease .4s;
+   color: white;
+   display: inline-block;
+  font-weight: 700;
+}
+
+.carsour a:hover{
+    width: 140px;
+    background-color: white;
+    color: rgb(253, 0, 0) ;
+    font-weight: 800;
+
+}
+
+.icons  a{
+    
+    
+    margin: 5px -8px  ;
+    color: white;
+    background: none;
+    font-size: 25px;
+    transition:calc(cubic-bezier(0.175, 0.885, 0.32, 1.275));
+}
+
+.icons a:hover{
+    background: none;
+  
+}
+
+
+
+
+
+
+
+
+
+.Services h2{
+     text-align: center;
+     padding: 20px ;
+     font-size: 40px;
+     margin: 30px;
+     font-weight: 1000;
+}
+.Services .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 80px;
+    justify-content: center;
+
+}
+.Services .cards{
+ 
+    margin-right: 20px;
+    box-shadow: 3px 3px 6px 6px #ccc;
+    padding:12px  ;
+    width: 22em;
+    margin-bottom:50px ;
+    text-align: center;
+    transition: ease .4s;
+  
+}
+.Services .cards:hover{
+  width: 21em;
+  background-color: rgb(247, 231, 231);
+}
+
+.cards h3{
+    color: crimson;
+    font-weight: 1000;
+    font-size: 25px;
+
+}
+
+.cards p{
+    font-size:20px ;
+    font-weight: 400;
+}
+
+.Services .cards >div{
+  color: #2c3E50;
+  font-size: 50px ;
+}
+
+
+
+.WhyUs {
+    text-align: center;
+    padding: 20px ;
+    font-size: 40px;
+    margin: 30px;
+    font-weight: 1000;
+}
+
+.notilla{
+    padding: 50px 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+   background-color: #eadddd ;
+
+}
+.notilla p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.notilla h2{
+    color: crimson;
+    font-weight: 1000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.notilla.decs {
+    width: 60%;
+ text-align: center;
+    color: brown;
+}
+.notilla-img img{
+    width: 500px;;
+    margin-right:30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(67, 59, 59) ;
+
+
+}
+
+.notilla-img-rtl img{
+    width: 500px;;
+    margin-right:50px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(67, 59, 59) ;
+
+}
+
+.location {
+    text-align: center;
+    padding: 0px ;
+    font-size: 40px;
+    margin: 30px;
+    font-weight: 1000;
+}
+
+footer{
+    text-align: center;
+    background-color:  rgb(31, 32, 42);
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+ 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:crimson; 
+
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1abc9c; }
+
+    .up{
+        position: fixed;
+        bottom: 54px;
+       right: 20px;
+background-color: crimson;
+padding: 10px;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+text-align: center;
+color: white;
+       
+    }
+
+  .contact{
+    padding: 100px ;
+text-align: center;
+background: rgb(232, 227, 227);
+background: linear-gradient(90deg, rgba(255,245,245,1) 0%, rgba(215,194,194,1) 0%, rgba(188,167,167,0.7736344537815126) 0%, rgba(186,165,165,0.19100140056022408) 100%, rgba(187,187,187,1) 100%);
+  
+  }
+  .contact h2{
+  
+    color:black;
+display: inline-block;
+    font-weight: 1000;
+    font-size: 40px;
+
+    margin-bottom: 50px ;
+  }
+.input{
+    
+    padding: 0px 10px ;
+    
+    width: 100%;
+  
+  }
+  .input input{
+    border: none;
+    border-bottom:solid ;
+    outline: none;
+    padding: 0px 5px ;
+    width:100%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+  }
+
+ .submit{
+padding:12px 50px ;
+background-color: rgb(241, 3, 3);
+border-radius: 10px;
+border: none;
+color: white;
+margin: 10px;
+font-size: 20px;
+font-weight: 600;
+transition: ease .4s ;
+
+    }
+    .submit:hover{
+        
+        background-color: white;
+        color: rgb(253, 0, 0) ;
+        font-weight: 700;
+    }
+
+
+.map{
+    padding:50px 100px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.map iframe{
+    width: 100%;
+}
+
+.map div{
+    width: 100%;
+    box-shadow: 0 10px 35px 0px lightblue ;
+    padding: 20px;
+}
+
+
+
+
+
+  
+
+  
+@media (max-width:1023px){
+    section{
+        padding: 80px 20px;
+    }
+ 
+    }
+    @media (max-width:541px){
+       body{
+        font-size: 12px;
+       }
+       .main-content h1{
+        font-size: 0.8em;
+        }
+        .main-content h3{
+            font-size: 1.4em
+    
+        }
+    }
+    @media (max-width:200px){
+        body{
+         font-size: 10px;
+        
+        }
+        }
+      
+      
+        
+          
+    
+        
+    
+    
+    
+
